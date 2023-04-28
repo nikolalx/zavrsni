@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-image: url(./img/philip-myrtorp-w7M4oUyQLDE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    height: max-content;
+
+}
+
+a {
+    color: rgb(83, 162, 231);
+}
+
+p {
+    color: #FFF;
+}
+
+/* Header pa Navigacija */
+header {
+    background-image: url(./img/header.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 450px;
+    width: auto;
+    position: relative;
+}
+
+.navBar {
+    font-size: 30px;
+    position: absolute;
+    left: 35%;
+    top: 90%;
+    
+}
+
+nav a { 
+    padding: 0.5rem;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: rgb(0, 90, 75);
+}
+
+/* Video */
+ video {
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+/* Section 1 ili Slika plus tekst */
+
+#prvi {
+    width: 100%;
+    padding-bottom: 35rem;
+}
+
+.naocareKnjiga {
+    float: left;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: 15px rgb(0, 90, 75) groove;
+}
+
+h2, h3 {
+    color: #FFF;
+}
+
+.nasaPrica {
+    width:30%;
+    text-align: justify;
+    padding-top: 9rem;
+    font-size: larger;
+    float: left;
+}
+
+.nasaMisija {
+    width: 30%;
+    float: left;
+    font-size: larger;
+    padding-top: 9rem;
+    padding-left: 3rem;
+    text-align: justify;
+}
+
+/* Dugme za citavu galeriju */
+
+#galerija {
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 45%;
+    background-color: rgb(0, 90, 75);
+    border: #000 ridge 8px;
+}
+
+/* section 2 ili ti 3 slike */
+
+#drugi img {
+    margin-top: 2rem;
+    padding-left: 3rem;
+    opacity: 0.5;
+    transition: transform .2s;
+}
+
+.drugi:hover {
+    transform: scale(1.05);
+    background: none;
+}
+
+#drugi a {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+}
+
+/* hr */
+
+#hr {
+    margin: 3rem;
+    height: 0.5rem;
+    background-color: #FFF;
+    opacity: 0.5;
+}
+
+/* KOMENTARI */
+
+#komentari {
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 46.25%;
+    background-color: rgb(0, 90, 75);
+    border: #000 ridge 8px;
+}
+
+/* tabela komentara */
+
+.table {
+    margin-top: 4rem;
+    margin-left: 9rem;
+    display: table;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding-bottom: 4rem;
+}
+
+.cell p {
+    text-align: justify;
+    width: 70%;
+}
+
+.cell img {
+    float: left;
+    padding-right: 1rem;
+}
+
+/* section 3 */
+
+#treci {
+    margin-bottom: 5rem;
+    height: max-content;
+}
+
+.lista {
+    margin-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+#celaLista {
+    float: left;
+    width: 20%;
+    padding-right: 5%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+ul a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+ul hr {
+    opacity: 0.5;
+}
+
+address {
+    color: #FFF;
+    float: left;
+    font-size: 20px;
+    padding-left: 1rem;
+}
+
+#email {
+    display: block;
+    padding-top: 2rem;
+    background-color: transparent;
+
+}
+
+#adresa  {
+    padding-bottom: 3rem;
+}
+
+#tel {
+    background-color: transparent;
+    display: block;
+    padding-top: 1rem;
+
+}
+
+iframe {
+    padding-left: 9rem;
+    margin-top: -4rem;
+    opacity: 0.5;
+}
