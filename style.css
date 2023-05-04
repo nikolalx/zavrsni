@@ -30,9 +30,15 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 450px;
+    height: 400px;
     width: auto;
     position: relative;
+}
+
+header h1 {
+    position: relative;
+    top: 21.4rem;
+    padding-left: 2rem;
 }
 
 .navBar {
@@ -245,15 +251,25 @@ iframe {
 /* footer */
 
 footer {
-    height: 250px;
-    width: auto;
+    background-color: rgba(148, 148, 148, 0.3);
+    height: 150px;
+    width: 100%;
+    position: absolute;
 }
 
-footer p {
-    float: left;
-    text-align: center;
+#puf {
+    font-size: larger;
+    position: relative;
+    left: 45rem;
+    top: 5rem;
+    display: inline-block;
 }
 
-footer a {
-    float: left;
+#auf {
+    font-size: larger;
+    display: inline-block;
+    position: relative;
+    left: 45rem;
+    top: 5rem;
+    text-decoration: none;
 }   
