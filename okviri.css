@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/philip-myrtorp-w7M4oUyQLDE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    height: max-content;
+
+}
+
+a {
+    color: rgb(83, 162, 231);
+}
+
+p {
+    color: #FFF;
+}
+
+/* Header pa Navigacija */
+header {
+    background-image: url(./img/header.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    width: auto;
+    position: relative;
+}
+
+header h1 {
+    position: relative;
+    top: 21.4rem;
+    padding-left: 2rem;
+}
+
+.navBar {
+    font-size: 30px;
+    position: absolute;
+    left: 35%;
+    top: 90%;
+
+}
+
+nav a {
+    padding: 0.5rem;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: rgb(0, 90, 75);
+}
+
+/* Sredisnji deo svega */
+
+.body2 {
+    width: 80%;
+    height: max-content;
+    margin: auto;
+}
+
+/* aside lista */
+
+aside {
+    float: left;
+    margin-right: 4rem;
+    margin-top: 4rem;
+}
+
+.categories {
+    color: #FFF;
+}
+
+.categories li {
+    list-style-type: none;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Svi {
+    padding-left: 0rem;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.categories a:hover {
+    color: blueviolet;
+}
+
+/* table */
+
+.table {
+    display: table;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    float: left;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+
+/* Sort */
+
+#sort {
+    display: inline-block;
+    width: 10%;
+    padding-left: 1rem;
+    margin-bottom: 74rem;
+    margin-top: 6rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(img/okviri/comet.jpg);
+    /* linear gradient odreduje put boje i transparentnosti od jednog dela do drugog. ako ne napises trajekciju onda je od gore do dole */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#sort li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+#sort a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#sort a:hover {
+    color: rgb(0, 204, 27);
+}
+
+/* strane slika */
+
+#strane {
+    text-decoration: none;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 3rem;
+    background-color: #000;
+}
+
+#strane a {
+    background-color: #000;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(148, 148, 148, 0.3);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+}
+
+#puf {
+    font-size: larger;
+    position: relative;
+    left: 45rem;
+    top: 5rem;
+    display: inline-block;
+}
+
+#auf {
+    font-size: larger;
+    display: inline-block;
+    position: relative;
+    left: 45rem;
+    top: 5rem;
+    text-decoration: none;
+}
