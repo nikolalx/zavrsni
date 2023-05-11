@@ -120,6 +120,13 @@ aside {
     padding-bottom: 2rem;
 }
 
+.cell img {
+    opacity: 0.7;
+}
+
+.cell a{
+    background: transparent;
+}
 
 /* Sort */
 
