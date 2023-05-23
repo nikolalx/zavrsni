@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body { 
@@ -11,7 +12,6 @@ body {
     width: auto;
     height: auto;
     height: max-content;
-
 }
 
 a {
@@ -56,7 +56,7 @@ nav a {
     transition: 0.5s;
 }
 
-a:hover {
+a:hover, #auf:hover {
     background-color: rgb(0, 90, 75);
 }
 
@@ -211,6 +211,7 @@ ul a{
     padding-left: 2rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    transition: 0.5s;
 }
 
 ul hr {
@@ -272,4 +273,7 @@ footer {
     left: 45rem;
     top: 5rem;
     text-decoration: none;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+
 }   
