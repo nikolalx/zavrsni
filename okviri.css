@@ -83,23 +83,26 @@ aside {
 
 .categories li {
     list-style-type: none;
-    padding-top: 3rem;
-    padding-left: 1rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
 }
+
 
 #Svi {
     padding-left: 0rem;
 }
 
 .categories a {
-    text-decoration: none;
     color: #FFF;
+    text-decoration: none;
+    transition: .5s;
 }
 
 .categories a:hover {
-    color: blueviolet;
+    color: #8a2be2 ;
+
 }
 
 /* table */
@@ -154,7 +157,7 @@ aside {
     color: #FFF;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
-
+    transition: .5s;
 }
 
 #sort a:hover {
